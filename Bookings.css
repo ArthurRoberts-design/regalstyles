@@ -207,3 +207,8 @@ form>label{
     font-size: 120%;
     font-weight: 200;
 }
+
+form>option{
+    height: 10px;
+    width: 20%;
+}
