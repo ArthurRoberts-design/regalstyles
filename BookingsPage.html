@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="royalblue">
+    <link rel="stylesheet" href="Bookings.css">
+    <title>Regal Styles: Beauty and Hair Salon</title>
+    </head>
+
+    <body>
+        <header>
+            <a class="logo-box" href="/IT Website/HomePage.html">
+                <img src="Logo.png" class="logo" alt="Logo">
+                <strong>Regal Styles: Beauty and Hair Salon</strong>
+            </a>
+            <div class="expand-h"></div>
+            <nav>
+                <ul>
+                    <li><a href="HomePage.html">Home</a> </li>
+                    <li><a href="AboutPage.html">About</a> </li>
+                    <li><a href="ServicesPage.html">Services</a> </li>
+                    <li> <a href="ReviewsPage.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="masthead">
+                <h1>REGAL STYLES</h1>
+                <h2> Beauty and Hair Salon</h2>
+                <h3>Your Vision, Our masterpiece</h3>
+            </section>
+
+            <section class="form-section">
+                <div class="form-container">
+                    <h3>Book Your Appointment</h3>
+                    <form action="mailto:arthurroberts249@gmail.com" method="post" enctype="text/plain">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+        
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" required>
+        
+                        <label for="service">Service</label>
+                        <select id="service" name="service" required>
+                            <option value="face-cleansing">Face Cleansing</option>
+                            <option value="full-body-massage">Full Body Massage</option>
+                            <option value="custom-facial">Custom Facial</option>
+                            <option value="haircut">Haircut</option>
+                        </select>
+        
+                        <label for="notes">Additional Notes</label>
+                        <textarea id="notes" name="notes"></textarea>
+        
+                        <button type="submit" id="submitBtn">
+                            <span class="button-text">Book Appointment</span>
+                            <span class="loading-spinner" style="display: none;">
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            
+           
+        </main>
+        <footer>
+            <h1>Contact us via:</h1>
+            <p>
+                <a href="mailto:arthurroberts249@gmail.com">Email</a>
+                <a href="tel:+592 6840649">Phone Number</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+            </p>
+            <p>&copy; 2025 Regal Styles. All Rights Reserved.</p>
+        </footer>
+    </body>
+
+
+</html>
