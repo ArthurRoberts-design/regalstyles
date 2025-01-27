@@ -104,7 +104,7 @@ p{
     text-decoration: #D4AF37;
 }
 
-section:nth-child(even) {
+.Bookings {
     background:#1A2A4A;
     justify-items: center;
     align-items: center;
@@ -114,16 +114,6 @@ section:nth-child(even) {
     color: #132039;
 }
 
-
-section:nth-child(odd) {
-    background: #F7F7F7;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    
-}p{
-    color: #D4AF37;
-}
 footer {
     background-color: #D4AF37;
     color: #FFFFFF;
@@ -211,4 +201,63 @@ form>label{
 form>option{
     height: 10px;
     width: 20%;
+}
+
+footer {
+    background-color: #D4AF37;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+footer>h1{
+    color: #132039;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer>p{
+    color: #F7F7F7;
+    justify-items: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 0.2px;
+    display: grid;
+}
+
+.faq-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.faq-item {
+    background: #1A2A4A;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 20px;
+    color: #D4AF37;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-answer>p{
+    color: #D4AF37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    align-items: center;
+    justify-items: center;
+
 }

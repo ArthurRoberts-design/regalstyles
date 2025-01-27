@@ -153,18 +153,6 @@ a:hover {
    
 }
 
-
-.logo2{
-    border-radius: 20%;
-    min-height: 20rem;
-}
-
-.banner{
-    border-radius: 10%;
-    
-    height: 25rem;
-}
-
 a,h1,h2,h3,h4,html{
     animation: fade-in 1s ease-out 1;
 }
@@ -209,4 +197,26 @@ img:hover{
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+footer {
+    background-color: #D4AF37;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+footer>h1{
+    color: #132039;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer>p{
+    color: #F7F7F7;
+    justify-items: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 0.2px;
+    display: grid;
 }

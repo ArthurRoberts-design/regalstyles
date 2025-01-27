@@ -188,29 +188,31 @@ img:hover{
     border: 2px solid white;
 }
 
-.form_section{
+.services-section{
     align-items: center;
     justify-items: center;
-    display: grid;
-    
+    text-align: center;
+}
+.card{
+    justify-items: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    outline: #D4AF37;
+    border: 2px solid #D4AF37;
+    border-radius: 5px;
+    margin: 3rem;
+    padding: 2rem;
+    height: 100%;
+    transition: transform 0.3s ease;
+    width: 90%;
 }
 
-form{
-    display: grid;
+.card:hover {
+    transform: translateY(-5px);
 }
 
-form>label{
-    color: #F7F7F7;
-    padding: 2%;
-    margin: 2%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 120%;
-    font-weight: 200;
-}
-
-form>option{
-    height: 10px;
-    width: 20%;
+.card>h1{
+    font-size: 5rem;
 }
 
 footer {
