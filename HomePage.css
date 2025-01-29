@@ -16,6 +16,7 @@ h2, p{
 }
 
 
+
 h1 {
     font-size: 5rem;
 }
@@ -199,8 +200,14 @@ a,h1,h2,h3,h4,html{
 img{
     transition: border 0.3s;
     border-radius: 1rem;
+    max-width: 100%;
+    object-fit: contain;
 }
-
+@media screen and (max-width:700px) {
+    .banner{
+        max-height: 160px;
+    }
+}
 img:hover{
     border: 2px solid white;
 }
