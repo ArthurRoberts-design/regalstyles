@@ -226,4 +226,7 @@ nav a.active {
     text-shadow: 0px 0px 8px rgba(255, 215, 0, 0.8);
 }
 
-
+html{
+    max-width: 100%;
+    object-fit: contain;
+}
