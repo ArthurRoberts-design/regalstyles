@@ -193,6 +193,7 @@ img:hover{
     justify-items: center;
     text-align: center;
 }
+
 .card{
     justify-items: center;
     align-items: center;
@@ -205,8 +206,15 @@ img:hover{
     height: 100%;
     transition: transform 0.3s ease;
     width: 90%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
+@media screen and (max-width:700px) {
+    .card{
+        height: 85%;
+    }
+}
 .card:hover {
     transform: translateY(-5px);
 }
