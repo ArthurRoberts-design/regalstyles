@@ -81,7 +81,7 @@ footer{
     justify-items: center;
     gap:1rem;
     text-align: justify;
-    background: url('BackgroundMasthead.jpg') center/cover no-repeat;
+    background: url('BackgroundMasthead.jpg');
     padding: 2rem;
     background-color: #f7f7f781;
 }
