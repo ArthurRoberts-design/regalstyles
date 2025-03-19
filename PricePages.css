@@ -216,6 +216,7 @@ img:hover{
     padding: 1.5rem;
     width: 300px;
     transition: transform 0.3s ease;
+    object-fit: contain;
 }
 
 
@@ -276,9 +277,3 @@ button{
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 700px) {
-    header nav>ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
