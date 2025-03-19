@@ -106,13 +106,13 @@ section:nth-child(odd) {
     color: #D4AF37;
 }
 section.masthead{
-    height: 100vh;
+    height: 50vh;
     display: grid;
     align-content: center;
     justify-items: center;
     gap:1rem;
     text-align: justify;
-    background: url('./BackgroundMasthead.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),url('./BackgroundMasthead.jpg') no-repeat center center/cover;
     padding: 2rem;
     background-color: #f7f7f781;
 }
