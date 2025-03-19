@@ -74,25 +74,6 @@ footer{
     background-color: #000;
 }
 
-.masthead{
-    min-height: 50vh;
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    gap:1rem;
-    text-align: justify;
-    background: url('./BackgroundMasthead.jpg') no-repeat center center/cover;
-    padding: 2rem;
-    background-color: #f7f7f781;
-}
-
-.masthead h1 {
-    margin-bottom: 0.2rem;
-} 
-
-.masthead h3 {
-    font-style: italic;
-} 
 section {
     padding: 2rem;
 }h1{
@@ -124,6 +105,25 @@ section:nth-child(odd) {
 }p{
     color: #D4AF37;
 }
+.masthead{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap:1rem;
+    text-align: justify;
+    background: url('./BackgroundMasthead.jpg') no-repeat center center/cover;
+    padding: 2rem;
+    background-color: #f7f7f781;
+}
+
+.masthead h1 {
+    margin-bottom: 0.2rem;
+} 
+
+.masthead h3 {
+    font-style: italic;
+} 
 footer {
     background-color: #D4AF37;
     color: #FFFFFF;
