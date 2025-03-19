@@ -188,30 +188,34 @@ img:hover{
     border: 2px solid white;
 }
 
-.services-section{
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-cards-container {
     display: flex;
     flex-direction: row;
-    justify_content: space-around;
+    justify-content: center;
     align-items: stretch;
-    justify-items: center;
-    text-align: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-.card{
-    justify-items: center;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #F7F7F7;
-    outline: #D4AF37;
     border: 2px solid #D4AF37;
     border-radius: 5px;
-    margin: 3rem;
-    padding: 2rem;
-    height: 100%;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    width: 300px;
     transition: transform 0.3s ease;
-    width: 90%;
-    max-width: 100%;
-    object-fit: contain;
 }
 
 
