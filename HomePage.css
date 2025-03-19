@@ -125,7 +125,7 @@ section.masthead h3 {
     font-style: italic;
 } 
 
-section.masthead h1, .masthead h2, .masthead p {
+section.masthead h1, .masthead h2, .masthead h3, .masthead p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     color: #E6C200;
   }
