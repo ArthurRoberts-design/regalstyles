@@ -75,24 +75,6 @@ footer{
     background-color: #000;
 }
 
-.masthead{
-    min-height: 50vh;
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    gap:1rem;
-    text-align: justify;
-    background-color: #132039;
-    padding: 2rem;
-    background-color: #f7f7f781;
-}
-.masthead h1 {
-    margin-bottom: 0.2rem;
-} 
-
-.masthead h3 {
-    font-style: italic;
-} 
 section {
     padding: 2rem;
 }h1{
@@ -103,6 +85,30 @@ p{
     text-align: justify;
     text-decoration: #D4AF37;
 }
+
+section.masthead{
+    height: 50vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap:1rem;
+    text-align: justify;
+    background: url('./BackgroundMasthead.jpg') no-repeat center center/cover;
+    padding: 2rem;
+    background-color: #f7f7f781;
+}
+
+section.masthead h1 {
+    margin-bottom: 0.2rem;
+} 
+
+section.masthead h3 {
+    font-style: italic;
+} 
+
+section.masthead h1, .masthead h2, .masthead p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
 
 .Bookings {
     background:#1A2A4A;
