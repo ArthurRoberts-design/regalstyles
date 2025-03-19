@@ -280,3 +280,9 @@ button{
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%; 
+        max-width: 90%; 
+    }
+}
