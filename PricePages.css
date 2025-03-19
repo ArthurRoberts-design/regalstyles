@@ -210,24 +210,6 @@ img:hover{
     object-fit: contain;
 }
 
-/* ... existing code ... */
-
-.card{
-    justify-items: center;
-    align-items: center;
-    background-color: #F7F7F7;
-    outline: #D4AF37;
-    border: 2px solid #D4AF37;
-    border-radius: 5px;
-    margin: 3rem;
-    padding: 2rem;
-    height: 100%;
-    transition: transform 0.3s ease;
-    width: 90%;
-    max-width: 100%;
-    object-fit: contain;
-}
-
 
 
 .services-cards-container {
@@ -245,20 +227,6 @@ img:hover{
     padding: 40px 20px;        
 }
 
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F7F7F7;
-    border: 2px solid #D4AF37;
-    border-radius: 5px;
-    margin: 0.5rem;
-    padding: 1.5rem;
-    width: 300px;
-    transition: transform 0.3s ease;
-}
 
 .service-btn {
     display: inline-block;
@@ -350,7 +318,7 @@ button {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Add the new service-btn class here */
+
 .service-btn {
     display: inline-block;
     padding: 12px 24px;
