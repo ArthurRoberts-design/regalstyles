@@ -87,7 +87,7 @@ p{
 }
 
 section.masthead{
-    height: 50vh;
+    min-height: 50vh;
     display: grid;
     align-content: center;
     justify-items: center;
