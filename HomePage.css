@@ -126,8 +126,9 @@ section.masthead h3 {
 } 
 
 section.masthead h1, .masthead h2,  .masthead p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     color: #E6C200;
-    -webkit-text-stroke: 0.2px white;
+
   }
 
 section.masthead h3{
